@@ -53,7 +53,7 @@ const ExpenseForm = (props) => {
         };
         // console.log(expenseData);
 
-        //
+        // props from Newexpense component
         props.onSaveExpenseData(expenseData);
 
         // Two-Way-Binding clearance
